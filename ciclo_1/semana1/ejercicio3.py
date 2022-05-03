@@ -38,7 +38,7 @@ def repetir_funciones():
 
 #repetir_funciones()
 
-
+'''
 def sumarDosnumeros():
     num1 = float(input("Ingrese el numero 1: "))
     num2 = float(input("Ingrese el numero 2: "))
@@ -66,10 +66,80 @@ A = 12
 B = 28
 
 # print(suma(A,B))
-
+'''
 
 def mi_funcion(nombre, apellido):
     miNombre = nombre + apellido
     return miNombre
 
-print(mi_funcion("Luis", "Molero"))
+# print(mi_funcion("Luis", "Molero"))
+
+
+
+# Creamos la función 
+def saludar(nombre, mensaje = 'Hola'):
+    print(mensaje, nombre)
+
+#llamar la función
+#saludar("Pepe Grillo")
+
+def mensaje():
+    print("Ingrese por favor un valor")
+
+def sumarDosnumeros():
+    mensaje()
+    num1 = float(input())
+    mensaje()
+    num2 = float(input())
+    return print("La suma de", num1,"+",num2,"es igual a: ", num1 + num2)
+
+#llamar la función
+#sumarDosnumeros()   
+
+
+
+# Funciones anidadas
+
+'''
+def primeraFuncion(): # función externa
+    print("\n \"Hola desde la función externa\" \n")
+    def segundaFuncion(): # función interna
+        print("\n \"Hola desde la función interna\" \n")
+    
+    segundaFuncion()
+
+#primeraFuncion()
+
+#mensaje1 = "Hola desde la función externa"
+#print(mensaje1)
+'''
+
+'''
+def primerNumero(x):
+    def segundoNumero(y,z):
+        return x * y - z
+    return segundoNumero
+
+resultado = primerNumero(2)
+print(type(resultado))
+
+print(resultado(5,5))
+'''
+
+def primeraFuncion():
+    x = 2
+    def segundaFuncion(a):
+        x = 6
+        print(a + x)
+    print(x)
+    # Llamamos la función
+    segundaFuncion(3)
+
+# Llamamos la función
+primeraFuncion()
+
+
+
+
+
+

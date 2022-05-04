@@ -12,7 +12,7 @@ nota3 = 2.7
 nota4 = 4.6
 
 promedio = (nota1 + nota2 + nota3 + nota4)/4
-print(promedio)
+# print(promedio)
 
 # Crear una función para obtener el promedio de cuatro notas 
 # y que su resultado sea un numero entero
@@ -27,7 +27,7 @@ def cal_Promedio(n1,n2,n3,n4):
 miResultado = cal_Promedio(nota1, nota2, nota3, nota4)
 print("El promedio de las notas es: " + str(miResultado))
 
-
+'''
 # Variables de entrada
 nt1 = float(input("Ingrese la nota 1:"))
 nt2 = float(input("Ingrese la nota 2:"))
@@ -40,4 +40,4 @@ def cal_Promedio2(n1,n2,n3,n4):
 
 miResultado2 = cal_Promedio2(nt1,nt2, nt3, nt4)
 print("El promedio de las notas es: " + str(miResultado2))
-
+'''

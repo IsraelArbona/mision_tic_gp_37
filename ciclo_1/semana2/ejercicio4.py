@@ -125,3 +125,70 @@ host = dato[enlaposicion+1:espacioenblanco]
 print(host)
 
 
+# Operador de formato
+
+# %s cadena
+# %d números
+
+camellos = 42
+print('%d' % camellos)
+
+print('He visto %d camellos' % camellos)
+
+nombre = 'Carlos'
+numero = 40
+print('%s %d' % (nombre,numero))
+
+saludo = 'Hola'
+print('%s, Marcos' % (saludo))
+
+
+# Omitir caracteres especiales
+
+cadena = r'Hola \n mundo'
+print(cadena)
+
+# metodo count
+
+cadena = 'un uno, un dos, un tres'
+
+print(cadena.count('un'))       # hay 4, "un" en la cadena
+print(cadena.count('un',10))    # hay 1, "un" a partir de la posición 10
+print(cadena.count('un',0,10))  # hay 3, "un" en el rango de 0 a 10
+
+# metodo reemplazar
+
+cadena = 'un uno, un dos, un tres'
+
+print(cadena.replace('un', 'xxx'))
+print(cadena.replace('un', 'xxxx',2))
+
+# aplicar format
+
+var1 = 10
+var2 = 15
+suma = var1 + var2
+
+print("el valor es {}".format(12))
+print('el valor es {}'.format(12.4354))
+
+print('los valores son {},{} y {}'.format(1,2,3))
+
+print('los valores son {1},{2} y {0}'.format(1,3,2))
+
+# print('los valores son {var1}, {var2}'.format(var1,var2))
+
+
+# Multiplicar cadenas
+
+cadena = 'Hola' * 3
+cadena2 = 'mundo'
+print(cadena + cadena2)
+
+# Añadir
+
+mensaje = 'Hola'
+mensaje += ' '
+mensaje += 'mundo'
+
+print(mensaje)

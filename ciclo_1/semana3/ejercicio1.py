@@ -163,6 +163,7 @@ print('promedio de notas de los estudiantes es: ' + str(promedio))
 
 # ejercicio 12
 
+'''
 promedio, total, contar = 0.0, 0, 0
 mensaje = 'Introduzca la nota de un estudiante ( -1 para salir)'
 
@@ -175,6 +176,14 @@ else:
     promedio = total / contar
     print('promedio de notas de los estudiantes es: ' + str(promedio))
 
+'''
+
+
+a, b = 0,1
+
+while b < 100:
+    print(b)
+    a,b = b, a + b
 
 
 

@@ -65,6 +65,7 @@ else:
 
 # determinar si un numero es de un solo digito
 
+
 x = 7
 
 if 0 < x:

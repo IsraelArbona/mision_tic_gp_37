@@ -24,3 +24,8 @@ def factorial(numero = 0):
     return resultado
 
 print(factorial(4))
+
+lista = [2,3,4,5,6,7,8]
+
+resultado = list( map(factorial,lista) )
+print(resultado)

@@ -8,11 +8,24 @@ a = np.array(
     ]
 )
 
+'''
 print(a)
-print(a.shape)
+print(a.shape,'\n')
 
 b = a[:2,1:3]
-print(b)
+print(b,'\n')
 
 c = a[1:3,1:3]
-print(c)
+print(c,'\n')
+
+d = a[1:3,:2]
+print(d)
+'''
+# Invertir los elementos de las filas de izquierda a derecha
+d = np.fliplr(a)
+print(d)
+
+# Invertir las columna
+d = np.flip(a)
+print(d)
+

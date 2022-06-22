@@ -12,6 +12,3 @@ def CDT(usuario: str, capital: int, tiempo: int):
 
     return 'Para el usuario ' + str(usuario) + ' La cantidad de dinero, según el monto inicial ' \
            + str(capital) + ' para un tiempo de '+ str(tiempo) + ' meses es: ' + str(valor_total)
-
-
-# print(CDT('AB1012',1000000,1))

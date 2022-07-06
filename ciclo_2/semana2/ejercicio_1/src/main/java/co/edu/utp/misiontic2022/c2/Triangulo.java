@@ -16,7 +16,7 @@ public class Triangulo extends Figura {
     @Override
     public double calcularArea() {
         // TODO Auto-generated method stub
-        return 0;
+        return ((base * altura) / 2);
     }
     
 }

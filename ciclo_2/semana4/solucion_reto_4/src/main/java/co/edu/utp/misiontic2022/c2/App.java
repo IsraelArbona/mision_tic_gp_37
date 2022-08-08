@@ -16,8 +16,13 @@ public class App
         reportesView.proyectosFinanciadosPorBanco(banco);
         */
         
+        /*
         var reportesView2 = new ReportesView();
         var limiteInferior = 50_000d;
         reportesView2.totalAdeudadoPorProyectosSuperioresALimite(limiteInferior);
+        */
+        
+        var reportesView3 = new ReportesView();
+        reportesView3.lideresQueMasGastan();
     }
 }
